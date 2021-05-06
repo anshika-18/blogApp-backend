@@ -16,7 +16,7 @@ mongoose.connect(db,{useUnifiedTopology:true,useNewUrlParser:true,useFindAndModi
         })
         .catch(err=>console.log(err))
 
-const PORT=5000;
+const PORT=proocess.env.PORT||5000;
 
 require('./routes/blog')(app)
 require('./routes/auth')(app)
