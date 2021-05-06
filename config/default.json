@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://anshika:anshika@cluster0.wbes6.mongodb.net/Blogs?retryWrites=true&w=majority",
+    "jwtSecret":"ah_jwtsecret"
+}
